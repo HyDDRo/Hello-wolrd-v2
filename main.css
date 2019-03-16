@@ -1,11 +1,18 @@
-<style>
+
 body {
-background-color: black;
+background-color: antiquewhite;
+-webkit-animation: mymove 5s infinite;
+animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove{
+    from{background-color: antiquewhite;}
+    to{background-color: blueviolet;}
+}
+@keyframes mymove{
+    from{background-color: antiquewhite;}
+    to{background-color: blueviolet;}
+}
+p{
+    color: white
 }
 
-
-
-
-
-
-</style>
