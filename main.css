@@ -1,18 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(47,150,165),rgb(48,62,143));
+  font-family: sans-serif; 
+  color: white;
+}
 
-body {
-background-color: antiquewhite;
--webkit-animation: mymove 5s infinite;
-animation: mymove 5s infinite;
-}
-@-webkit-keyframes mymove{
-    from{background-color: antiquewhite;}
-    to{background-color: blueviolet;}
-}
-@keyframes mymove{
-    from{background-color: antiquewhite;}
-    to{background-color: blueviolet;}
-}
-p{
-    color: white
-}
 
