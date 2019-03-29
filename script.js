@@ -6,7 +6,8 @@ window.addEventListener("load", ()=> {
    if(navigator.geolocation) {
         navigation.geolocation.getCurrentPosition
         (position => {
-          console.log(position);
+          long = position.coords.longitude;
+          lat = position.coords.latitude;
          
         });
    }
