@@ -1,4 +1,4 @@
-alert("this script works!");
+
 window.addEventListener("load", ()=> {
   let long;
   let lat;
