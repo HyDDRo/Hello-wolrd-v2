@@ -13,15 +13,16 @@ body{
   font-family: sans-serif; 
   color: white;
 }
-.location{
-   height: 30vh;
-   width: 15%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;   
+.location,
+.temperature{
+  height: 30vh;
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;   
 }
 .temperature{
-   flex-direction: column;    
+  flex-direction: column;    
 }
 
 
