@@ -9,8 +9,5 @@ window.addEventListener("load", ()=> {
           console.log(position);
          
         });
-   }else{
-     h1.textContent = "hey this dosnt work"
-     
-     
-   });
+   }
+});
